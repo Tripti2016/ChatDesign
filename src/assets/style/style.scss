@@ -33,6 +33,7 @@ body {
   font-family: "Rubik";
   background-color: $Light-Grayish-Violet-ChatBG;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .chat-box {
@@ -43,6 +44,7 @@ body {
   border-radius: 20px;
   padding: 16px;
   margin-top: 6rem;
+  margin-bottom: 2rem;
   @media (max-width: 1034px) {
     max-width: 60vw;
   }
@@ -351,7 +353,6 @@ body {
   position: relative;
   margin: 0 auto;
   gap: 10rem;
-  height: 100vh;
   @media (max-width: 1034px) {
     flex-direction: column;
     height: auto;
